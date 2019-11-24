@@ -1,5 +1,7 @@
 # Learn basics of python web framework. Getting started with to-do app
 
+<img src='https://github.com/ishaileshmishra/todo_api_jango/blob/master/images/python.jpg' width='150' height='150'/>__<img src='https://github.com/ishaileshmishra/todo_api_jango/blob/master/images/django.jpg' width='150' height='150'/>
+
 Uses Of Django – Introduction. Django is an open-source python web framework used for rapid development, pragmatic, maintainable, clean design, and secures websites. ... It takes care of a lot of hassle involved in the web development; enables users to focus on developing components needed for their application.
 
 ## [A sample todo web app using DJango framework]
