@@ -98,6 +98,16 @@ Let's change a few settings. Open up the settings.py file in your favorite edito
         'django.contrib.staticfiles',
     ]
 
+Django operates on the concept of apps. An app is a self contained unit of code which can be executed on its own. An app can do many things such as serve a webpage on the browser or handle user authentication or anything else you can think of. Django comes with some default apps preinstalled such as the authentication and session manager apps. Any apps we will create or third-party apps we will need will be added at the bottom of the Installed Apps list after the default apps installed.
+
+Before we create a custom app, let's change the application timezone. Django uses the tz database timezones, a list of which can be found here.
+
+The timezone setting looks like this.
+
+    # todo_api_jango/settings.py
+    TIME_ZONE = 'UTC'
+
+
 ## Creating your own app
 
 It is important to note that Django apps follow the Model, View, Template paradigm. In a nutshell, the app gets data from a model, the view does something to the data and then renders a template containing the processed information. As such, Django templates correspond to views in traditional MVC and Django views can be likened to the controllers found in traditional MVC.
@@ -153,10 +163,17 @@ Once that is done, let's run our server and see what will be output. We mentione
     You have unapplied migrations; your app may not work properly until they are applied.
     Run 'python manage.py migrate' to apply them.
 
-    Nov 24, 2019 - 08:42:18
-    Django version 1.9.6, using settings 'todo_api_jango.settings'
+    November 24, 2019 - 16:36:01
+    Django version 2.2.7, using settings 'todo_api_jango.settings'
     Starting development server at http://127.0.0.1:8000/
     Quit the server with CONTROL-C.
+
+    [24/Nov/2019 16:36:09] "GET / HTTP/1.1" 200 16348
+    [24/Nov/2019 16:36:09] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+    [24/Nov/2019 16:36:09] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+    [24/Nov/2019 16:36:09] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+    [24/Nov/2019 16:36:09] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+
 
 
 If you look carefully, you will see a warning that you have unapplied migrations. Ignore that for now. Go to your browser and access http://127.0.0.1:8000/. If all is running smoothly, you should see the Django welcome page.
