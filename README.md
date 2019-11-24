@@ -405,7 +405,7 @@ Clicking on the About me link should direct you to the About page.
 
 The full code for this tutorial can also be found on [Github]('https://github.com/ishaileshmishra/todo_api_jango.git').
 
-## Like this article? Follow @iamsrmishra on Twitter
+## Like this article? Follow @iamsrmisra on Twitter
 ## Visit my [Website]('https://mshaileshr.github.io/portfolio').
 ## Visit my [Blog]('http://mshaileshr.wordpress.com/').
 
