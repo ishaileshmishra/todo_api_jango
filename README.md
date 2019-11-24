@@ -1,5 +1,9 @@
 # todo_api_jango
 
+--------------------------
+<img src='https://github.com/ishaileshmishra/todo_api_jango/blob/master/images/icon.png' width='500' height='300'/>
+--------------------------
+
 ## [A sample todo web app using DJango framework]
 
 Note that if you are on OSX and you have Homebrew installed you can do
@@ -252,7 +256,7 @@ Django will look for more url definitions in the home app. Since there are none,
     .
     .
     .
-    ImportError: No module named 'howdy.urls'
+    ImportError: No module named 'home.urls'
 
 Let's fix that. Go to the howdy app folder and create a file called urls.py. The home app folder should now look like this.
 
@@ -361,6 +365,8 @@ Let's add another page. In your home/templates folder, add a file called about.h
         </body>
     </html>
 
+<img src='https://github.com/ishaileshmishra/todo_api_jango/blob/master/images/home.png' width='500' height='200'/>
+
 Clicking on the About me link won't work quite yet because our app doesn't have a /about/ url defined. Let's edit the urls.py file in our home app to add it.
 
     # home/urls.py
@@ -372,6 +378,8 @@ Clicking on the About me link won't work quite yet because our app doesn't have 
         url(r'^$', views.HomePageView.as_view()),
         url(r'^about/$', views.AboutPageView.as_view()), # Add this /about/ route
     ]
+
+<img src='https://github.com/ishaileshmishra/todo_api_jango/blob/master/images/about.png' width='700' height='200'/>
 
 Once we have added the route, we need to add a view to render the about.html template when we access the /about/ url. Let's edit the views.py file in the home app.
 
@@ -391,11 +399,6 @@ Once we have added the route, we need to add a view to render the about.html tem
 
 Notice that in the second view, I did not define a get method. This is just another way of using the TemplateView class. If you set the template_name attribute, a get request to that view will automatically use the defined template. Try changing the HomePageView to use the format used in AboutPageView.
 
---------------------------
-
-<img> 'http//www.imagescreenshots.com/about.png' width=500, height=200</img>
-
---------------------------
 
 Clicking on the About me link should direct you to the About page.
 
