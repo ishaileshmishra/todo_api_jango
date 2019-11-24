@@ -392,7 +392,9 @@ Once we have added the route, we need to add a view to render the about.html tem
 Notice that in the second view, I did not define a get method. This is just another way of using the TemplateView class. If you set the template_name attribute, a get request to that view will automatically use the defined template. Try changing the HomePageView to use the format used in AboutPageView.
 
 --------------------------
-## put image here....
+
+<img> 'http//www.imagescreenshots.com/about.png' width=500, height=200</img>
+
 --------------------------
 
 Clicking on the About me link should direct you to the About page.
