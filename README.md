@@ -1,8 +1,6 @@
-# todo_api_jango
+# Learn basics of python web framework. Getting started with to-do app
 
---------------------------
-<img src='https://github.com/ishaileshmishra/todo_api_jango/blob/master/images/icon.png' width='500' height='300'/>
---------------------------
+Uses Of Django – Introduction. Django is an open-source python web framework used for rapid development, pragmatic, maintainable, clean design, and secures websites. ... It takes care of a lot of hassle involved in the web development; enables users to focus on developing components needed for their application.
 
 ## [A sample todo web app using DJango framework]
 
@@ -379,7 +377,7 @@ Clicking on the About me link won't work quite yet because our app doesn't have 
         url(r'^about/$', views.AboutPageView.as_view()), # Add this /about/ route
     ]
 
-<img src='https://github.com/ishaileshmishra/todo_api_jango/blob/master/images/about.png' width='700' height='200'/>
+<img src='https://github.com/ishaileshmishra/todo_api_jango/blob/master/images/about.png' width='600' height='150'/>
 
 Once we have added the route, we need to add a view to render the about.html template when we access the /about/ url. Let's edit the views.py file in the home app.
 
