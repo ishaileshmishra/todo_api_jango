@@ -402,14 +402,15 @@ Notice that in the second view, I did not define a get method. This is just anot
 
 Clicking on the About me link should direct you to the About page.
 
-
 ## Conclusion
 
-The full code for this tutorial can also be found on [Github]('https://github.com/ishaileshmishra/todo_api_jango.git').
+### The full code for this tutorial can also be found on [Github]('https://github.com/ishaileshmishra/todo_api_jango.git')
 
-## Like this article? Follow @iamsrmisra on Twitter
-## Visit my [Website]('https://mshaileshr.github.io/portfolio').
-## Visit my [Blog]('http://mshaileshr.wordpress.com/').
+### Like this article? Follow @iamsrmisra on [twitter]('https://www.twitter.com/isrmisra')
+
+### Visit my [website]('https://mshaileshr.github.io/portfolio')
+
+### Visit my [blog]('http://mshaileshr.wordpress.com/')
 
 
 
