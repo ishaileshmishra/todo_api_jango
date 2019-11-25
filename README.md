@@ -408,9 +408,7 @@ Clicking on the About me link should direct you to the About page.
 
 ### Like this article? Follow @iamsrmisra on [twitter]('https://www.twitter.com/isrmisra')
 
-### Visit my [website]('https://mshaileshr.github.io/portfolio')
-
-### Visit my [blog]('http://mshaileshr.wordpress.com/')
+### Visite My [WEBSITE]('https://mshaileshr.github.io/portfolio') and [BLOG]('http://mshaileshr.wordpress.com/')
 
 
 
