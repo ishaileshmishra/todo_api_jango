@@ -1,4 +1,4 @@
-# Learn basics of python web framework. Getting started with to-do app
+# Learning Django Basics — The Popular Python Web Framework
 
 <img src='https://github.com/ishaileshmishra/todo_api_jango/blob/master/images/python.png' width='250' height='80'/>__<img src='https://github.com/ishaileshmishra/todo_api_jango/blob/master/images/django.jpg' width='150' height='150'/>
 
